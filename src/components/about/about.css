@@ -1,0 +1,36 @@
+.About {
+    background-color: rgb(1, 0, 80);
+    text-align: center;
+  }
+  
+.About h1{
+    color: dodgerblue;
+  }
+
+.About {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.About-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+
+@media (min-width: 650px ) {
+    .About {
+        background-position: center center;
+    }
+
+    .About-content {
+        align-items: center;
+        justify-content: center;
+        color: rgb(62, 151, 102);
+    }
+}

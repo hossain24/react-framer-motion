@@ -1,0 +1,27 @@
+.Front {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.Front-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+
+@media (min-width: 650px ) {
+    .Front {
+        background-position: center center;
+    }
+
+    .Front-content {
+        align-items: center;
+        justify-content: center;
+        color: rgb(203, 191, 255);
+    }
+}

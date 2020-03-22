@@ -1,0 +1,27 @@
+.Upload {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.Upload-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+}
+
+@media (min-width: 650px ) {
+  .Upload {
+      background-position: center center;
+  }
+
+  .Upload-content {
+      align-items: center;
+      justify-content: center;
+      color: rgb(62, 151, 102);
+  }
+}
