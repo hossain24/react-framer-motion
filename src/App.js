@@ -4,9 +4,9 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Home from './components/home/home';
+/* import Home from './components/home/home';
 import About from './components/about/about';
-import Contact from './components/contact/contact';
+import Contact from './components/contact/contact'; */
 import Front from './components/front/front';
 import TestUser from './components/api/test-user';
 /* import DbUser from './components/api/db-user'; */
@@ -20,9 +20,9 @@ class App extends Component {
         <div>
           <Route component={Navbar} />
           <Route component={Front} />
-          <Route component={Home} />
+          {/*  <Route component={Home} />
           <Route component={About} />
-          <Route component={Contact} />
+          <Route component={Contact} /> */}
           <Route component={TestUser} />
           {/*   <Route component={DbUser} /> */}
           <Route component={UsersList} />
