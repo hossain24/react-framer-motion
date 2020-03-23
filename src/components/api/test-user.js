@@ -21,7 +21,8 @@ class TestUser extends Component {
         return (
             <div className="Test">
                 <div className="Test-content">
-                    <h1>Users List</h1>
+                    <h3>Users List</h3>
+                    <p>This list of user is displayed from an hard coded array through API.</p>
                     <ul>
                         {this.state.users.map(user =>
                             <li key={user.id}>Name: {user.firstName} {user.lastName}</li>

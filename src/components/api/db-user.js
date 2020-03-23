@@ -17,16 +17,35 @@ class Users extends Component {
             }))
     }
 
+    /*  userList() {
+         return this.state.users.map(currentuser => {
+             return <User user={currentuser} key={currentuser._id} />;
+         })
+     } */
+
     render() {
         return (
             <div className="Test">
                 <div className="Test-content">
-                    <h1>Users List: </h1>
-                    <ul>
+                    <h3>Users List: </h3>
+
+                    <table className="table">
+                        <thead className="thead-light">
+                            {this.state.users.map(user =>
+                                <tr key={user.id}>
+                                    <th>ID: {user._id} </th>
+                                    <th>Email: {user.email}</th>
+                                    <th>Password: {user.password}</th>
+                                </tr>)}
+                        </thead>
+
+                    </table>
+
+                    {/*  <ul>
                         {this.state.users.map(user =>
-                            <li key={user._id}> {user.email} </li>
+                            <li key={user.id}> ID: {user._id} Email: {user.email} Password: {user.password}</li>
                         )}
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         );
