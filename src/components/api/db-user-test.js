@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-/* import { Link } from 'react-router-dom'; */
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import './test.css';
 
 const User = props => (
     <tr>
-        <td>{props.user._id}</td>
+        <td>{props.user.name}</td>
+        <td>{props.user.age}</td>
         <td>{props.user.email}</td>
-        <td>{props.user.password}</td>
-        {/*  <td>
+        <td>{props.user.address}</td>
+        <td>
             <Link to={"/edit/" + props.user._id}>edit</Link> |
             <a href=" " onClick={() => { props.deleteUser(props.user._id) }}>delete</a>
-        </td> */}
+        </td>
     </tr>
 )
 
@@ -35,7 +36,7 @@ class UsersList extends Component {
     }
 
     deleteUser(id) {
-        axios.delete('https://portfolio-backend24.herokuapp.com/users-db' + id)
+        axios.delete('https://portfolio-backend24.herokuapp.com/users-db/' + id)
             .then(response => { console.log(response.data) });
 
         this.setState({
@@ -45,7 +46,7 @@ class UsersList extends Component {
 
     usersList() {
         return this.state.users.map(currentuser => {
-            return <User user={currentuser} deleteUser={this.currentuser} key={currentuser._id} />;
+            return <User user={currentuser} deleteUser={this.deleteUser} key={currentuser._id} />;
         })
     }
 
@@ -58,9 +59,11 @@ class UsersList extends Component {
                     <table className="table">
                         <thead className="thead-dark">
                             <tr>
-                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Age</th>
                                 <th>Email</th>
-                                <th>Password</th>
+                                <th>Address</th>
+                                <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>

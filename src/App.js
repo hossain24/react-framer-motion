@@ -10,7 +10,7 @@ import Contact from './components/contact/contact'; */
 import Front from './components/front/front';
 import TestUser from './components/api/test-user';
 /* import DbUser from './components/api/db-user'; */
-import Navbar from './components/navbar/navbar';
+/* import Navbar from './components/navbar/navbar'; */
 import UsersList from './components/api/db-user-test';
 
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route component={Navbar} />
+          {/* <Route component={Navbar} /> */}
           <Route component={Front} />
           {/*  <Route component={Home} />
           <Route component={About} />
