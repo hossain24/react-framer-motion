@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './test.css';
+import { Table } from "react-bootstrap";
+import './api.css';
 
 const User = props => (
     <tr>
@@ -39,7 +40,7 @@ class TestUser extends Component {
                 <div className="Test-content">
                     <h3>Users List</h3>
                     <p>This list of user is displayed from an hard coded array through API.</p>
-                    <table className="table">
+                    <Table striped bordered hover>
                         <thead className="thead-dark">
                             <tr>
                                 <th>ID</th>
@@ -50,7 +51,7 @@ class TestUser extends Component {
                         <tbody>
                             {this.usersList()}
                         </tbody>
-                    </table>
+                    </Table>
 
                     {/* To display the value as listed
                     <ul>

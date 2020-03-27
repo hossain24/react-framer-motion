@@ -12,6 +12,9 @@ import TestUser from './components/api/test-user';
 /* import DbUser from './components/api/db-user'; */
 /* import Navbar from './components/navbar/navbar'; */
 import UsersList from './components/api/db-user-test';
+import VideoList from './components/youtube-api/video-list';
+
+
 
 class App extends Component {
   render() {
@@ -23,6 +26,7 @@ class App extends Component {
           {/*  <Route component={Home} />
           <Route component={About} />
           <Route component={Contact} /> */}
+          <Route component={VideoList} />
           <Route component={TestUser} />
           {/*   <Route component={DbUser} /> */}
           <Route component={UsersList} />

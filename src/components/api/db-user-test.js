@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Table } from "react-bootstrap";
 import axios from 'axios';
-import './test.css';
+import './api.css';
 
 const User = props => (
     <tr>
@@ -56,7 +57,7 @@ class UsersList extends Component {
                 <div className="Test-content">
                     <h3>Users List</h3>
                     <p>This list of user is displayed from a database through API.</p>
-                    <table className="table">
+                    <Table striped bordered hover>
                         <thead className="thead-dark">
                             <tr>
                                 <th>Name</th>
@@ -69,7 +70,7 @@ class UsersList extends Component {
                         <tbody>
                             {this.usersList()}
                         </tbody>
-                    </table>
+                    </Table>
                 </div>
             </div>
         )
