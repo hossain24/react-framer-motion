@@ -1,0 +1,26 @@
+.AnimateTwo {
+    height: 100vh;
+    background-color: #ce07ae;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+.AnimateTwo-Header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+  }
+
+.item {
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    stroke: #940eff;
+    stroke-width: 1;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }

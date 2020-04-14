@@ -1,0 +1,25 @@
+.Animate {   
+    height: 100vh;
+    background-color: #940eff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.Animate h1{
+ color: #ce07ae;   
+}
+
+.Animate p{
+    font-size: 2em;
+    color: #ce07ae;   
+}
+
+.Animate-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}

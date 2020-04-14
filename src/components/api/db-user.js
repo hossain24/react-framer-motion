@@ -27,8 +27,7 @@ class Users extends Component {
         return (
             <div className="Test">
                 <div className="Test-content">
-                    <h3>Users List: </h3>
-
+                    <h3>Users</h3>
                     <table className="table">
                         <thead className="thead-light">
                             {this.state.users.map(user =>

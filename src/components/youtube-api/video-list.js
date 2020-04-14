@@ -31,13 +31,12 @@ class VideoList extends Component {
         return (
             <div className="Video">
                 <div className="Video-content">
-                    <h3>Videos List</h3>
-                    <p>This list of video is displayed from an YouTube API.</p>
+                    <h3>Videos</h3>
+                    <p>These videos are displayed from an YouTube API.</p>
                     <Row>
                         {this.state.videos.map(video =>
                             <Col sm={4} key={video.id}>
-
-                                <Card.Img variant="top" src={video.snippet.thumbnails.medium.url} />
+                                <Card.Img variant="top" src={video.snippet.thumbnails.default.url} />
                                 <Card.Body>
                                     <Card.Title>{video.snippet.title} </Card.Title>
                                     <Button href={`https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`}
@@ -48,7 +47,6 @@ class VideoList extends Component {
                                             onReady={this._onReady}
                                         /> */}
                                 </Card.Body>
-
                             </Col>
                         )}
                     </Row>

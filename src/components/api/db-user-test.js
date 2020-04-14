@@ -55,7 +55,7 @@ class UsersList extends Component {
         return (
             <div className="Test">
                 <div className="Test-content">
-                    <h3>Users List</h3>
+                    <h3>Users</h3>
                     <p>This list of user is displayed from a database through API.</p>
                     <Table striped bordered hover>
                         <thead className="thead-dark">

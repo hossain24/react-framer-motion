@@ -9,8 +9,8 @@ const Front = () => {
     return (
         <div className="Front" style={{ backgroundImage: `url(${imageUrl})` }}>
             <div className="Front-content">
-                <h1>Portfolio</h1>
-                <p>A combination of projects</p>
+                <h1>PORTFOLIO</h1>
+                <p>A combination of some projects</p>
             </div>
         </div>
     );

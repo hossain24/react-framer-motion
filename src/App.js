@@ -7,12 +7,15 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 /* import Home from './components/home/home';
 import About from './components/about/about';
 import Contact from './components/contact/contact'; */
-import Front from './components/front/front';
+/* import Front from './components/front/front'; */
 import TestUser from './components/api/test-user';
 /* import DbUser from './components/api/db-user'; */
 /* import Navbar from './components/navbar/navbar'; */
 import UsersList from './components/api/db-user-test';
 import VideoList from './components/youtube-api/video-list';
+import Animate from './components/animate/animate';
+import AnimateTwo from './components/animate/animateTwo';
+import AnimateThree from './components/animate/animateThree';
 
 
 
@@ -22,7 +25,10 @@ class App extends Component {
       <Router>
         <div>
           {/* <Route component={Navbar} /> */}
-          <Route component={Front} />
+          {/* <Route component={Front} /> */}
+          <Route component={AnimateTwo} />
+          <Route component={AnimateThree} />
+          <Route component={Animate} />
           {/*  <Route component={Home} />
           <Route component={About} />
           <Route component={Contact} /> */}
