@@ -13,13 +13,23 @@
     justify-content: flex-start;
     align-items: center;
     padding: 40px;
+
+ /*    width: 100%;
+    height: 100%;
+    background: rgb(177, 9, 168);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
   }
 
-  body {
+ .AnimateThree-Header body {
     width: 100%;
     height: 100%;
-    /* background: white;
-    overflow: hidden; */
+    background: white;
+    overflow: hidden;
     padding: 0;
     margin: 0;
     display: flex;
@@ -43,8 +53,6 @@
   }
   
   ul {
-    justify-content: center;
-    align-items: center;
     position: relative;
     display: flex;
     width: 300px;
@@ -59,16 +67,16 @@
     height: 140px;
   }
   
-  .background {
+ .background {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     width: 300px;
     background: #fff;
-  }
+  } 
   
-  .refresh {
+   .refresh {
     padding: 10px;
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
@@ -81,5 +89,5 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-  }
+  } 
    
