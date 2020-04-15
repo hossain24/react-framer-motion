@@ -31,7 +31,7 @@ class VideoList extends Component {
         return (
             <div className="Video">
                 <div className="Video-content">
-                    <h3>Videos</h3>
+                    <h2>Videos</h2>
                     <p>These videos are displayed from an YouTube API.</p>
                     <Row>
                         {this.state.videos.map(video =>
