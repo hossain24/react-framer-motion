@@ -1,6 +1,6 @@
 .AnimateThree {
     height: 100vh;
-    background-color: #6600ff;
+    background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -15,17 +15,17 @@
     padding: 40px;
   }
 
-/*   body {
+  body {
     width: 100%;
     height: 100%;
-    background: white;
-    overflow: hidden;
+    /* background: white;
+    overflow: hidden; */
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-  } */
+  }
   
    nav {
     position: absolute;
@@ -43,6 +43,8 @@
   }
   
   ul {
+    justify-content: center;
+    align-items: center;
     position: relative;
     display: flex;
     width: 300px;
