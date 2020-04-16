@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     perspective: 500px;
-    background: linear-gradient(180deg, rgb(148,14,255), rgb(21,21,21));
+    background: linear-gradient(180deg, rgb(148,14,255), rgb(255, 0, 98));
 }
 
 .Animate h1{

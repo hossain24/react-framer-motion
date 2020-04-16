@@ -23,7 +23,7 @@ const Animate = () => {
                 <button onClick={() => setToggle(prevalue => { return prevalue ? 0 : 1 })}>Click Me</button>
 
                 <motion.div ref={constraintsRef} style={{ rotateY }}>
-                    <motion.p drag="x" dragConstraints={constraintsRef} style={{ x }}>Slide this line back and forth</motion.p>
+                    <motion.p drag="x" dragConstraints={constraintsRef} style={{ x }}>Drag me back and forth</motion.p>
                 </motion.div>
             </div>
 
