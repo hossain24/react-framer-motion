@@ -16,7 +16,7 @@ import VideoList from './components/youtube-api/video-list';
 import Animate from './components/animate/animate';
 import AnimateTwo from './components/animate/animate-two';
 import AnimateThree from './components/animate/animate-three';
-/* import AnimateFour from './components/animate/animate-four'; */
+import AnimateFour from './components/animate/animate-four';
 
 
 
@@ -30,7 +30,7 @@ class App extends Component {
           <Route component={Animate} />
           <Route component={AnimateTwo} />
           <Route component={AnimateThree} />
-          {/* <Route component={AnimateFour} /> */}
+          <Route component={AnimateFour} />
           {/*  <Route component={Home} />
           <Route component={About} />
           <Route component={Contact} /> */}
