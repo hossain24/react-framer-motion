@@ -13,7 +13,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   perspective: 500px;
+   perspective: 100px;
    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(148,14,255));
    }
   
@@ -27,5 +27,5 @@
     place-items: center;
     margin: 0;
     padding: 0;
-    perspective: 1000px;
+    perspective: 100px;
    }
