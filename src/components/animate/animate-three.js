@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { shuffle } from "lodash";
-import "./animateThree.css";
+import "./animate-three.css";
 
 const spring = {
     type: "spring",
@@ -16,7 +16,6 @@ const AnimateThree = () => {
     useEffect(() => {
         setTimeout(() => setColors(shuffle(colors)), 1000);
     }, [colors]);
-
 
     return (
         <div className="AnimateThree">

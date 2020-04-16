@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./animateTwo.css";
+import "./animate-two.css";
 
 const AnimateTwo = () => {
 
@@ -31,7 +31,6 @@ const AnimateTwo = () => {
                         initial="hidden"
                         animate="visible"
                         transition={{
-
                             default: { duration: 10, ease: "easeInOut", loop: Infinity, },
                             fill: { duration: 5, ease: [1, 0, 1, 1] }
                         }}

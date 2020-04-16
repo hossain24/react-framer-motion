@@ -14,8 +14,9 @@ import TestUser from './components/api/test-user';
 import UsersList from './components/api/db-user-test';
 import VideoList from './components/youtube-api/video-list';
 import Animate from './components/animate/animate';
-import AnimateTwo from './components/animate/animateTwo';
-import AnimateThree from './components/animate/animateThree';
+import AnimateTwo from './components/animate/animate-two';
+import AnimateThree from './components/animate/animate-three';
+import AnimateFour from './components/animate/animate-four';
 
 
 
@@ -28,6 +29,7 @@ class App extends Component {
           {/* <Route component={Front} /> */}
           <Route component={AnimateTwo} />
           <Route component={AnimateThree} />
+          <Route component={AnimateFour} />
           <Route component={Animate} />
           {/*  <Route component={Home} />
           <Route component={About} />
