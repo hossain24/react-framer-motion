@@ -1,5 +1,5 @@
 import React from "react";
-import { Frame } from "framer";
+/* import { Frame } from "framer"; */
 import "./animate-four.css";
 
 const AnimateFour = () => {
@@ -7,7 +7,7 @@ const AnimateFour = () => {
     return (
         <div className="AnimateFour">
             <div className="AnimateFour-Header">
-                <Frame
+                {/*  <Frame
                     animate={{ background: ["#F05", "#85F", "#0CF"] }}
                     transition={{
                         duration: 2,
@@ -16,7 +16,7 @@ const AnimateFour = () => {
                     size={150}
                     radius={30}
                     background={"#0CF"}
-                />
+                /> */}
             </div>
         </div>
     )
