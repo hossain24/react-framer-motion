@@ -1,33 +1,49 @@
-import React, { useState, useRef } from "react";
-import { motion, useMotionValue, useTransform } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 import "./animate.css";
 
 const Animate = () => {
-
-    const [value, setValue] = useState(0);
-    const [isToggled, setToggle] = useState(1);
-
-    const constraintsRef = useRef(null)
-    const x = useMotionValue(0)
-    const rotateY = useTransform(x, [-200, 0, 200], [-45, 0, 45], {
-        clamp: false
-    })
+    const variants = {
+        visible: { opacity: 1 },
+        hidden: { opacity: 0 },
+    }
 
     return (
         <div className="Animate">
             <div className="Animate-header">
-                <motion.h1 animate={{ x: value + "px" }} >Portfolio</motion.h1>
-                <input type="range" min="-100" max="100" value={value} onChange={e => setValue(e.target.value)} />
+                <motion.h1 initial="hidden"
+                    animate="visible"
+                    variants={variants}
+                    transition={{ duration: 5, loop: "Infinity" }}>
+                    Portfolio
+                </motion.h1>
 
-                <motion.p animate={{ opacity: isToggled }}>A combination of some projects</motion.p>
-                <button onClick={() => setToggle(prevalue => { return prevalue ? 0 : 1 })}>Click Me</button>
+                <motion.p initial="hidden"
+                    animate="visible"
+                    variants={variants}
+                    transition={{ duration: 10 }}>
+                    A combination of some projects
+                </motion.p>
 
-                <motion.div ref={constraintsRef} style={{ rotateY }}>
-                    <motion.p drag="x" dragConstraints={constraintsRef} style={{ x }}>Drag me back and forth</motion.p>
-                </motion.div>
+                <div className="Animate-body">
+                    <motion.p initial="hidden"
+                        animate="visible"
+                        variants={variants}
+                        transition={{ duration: 15 }}>
+                        The technologies are used to build this web app:
+                </motion.p>
+
+                    <motion.p initial="hidden"
+                        animate="visible"
+                        variants={variants}
+                        transition={{ duration: 20 }}>
+                        Front-end: React, React-bootstrap, Framer-motion, HTML, CSS.
+                    <br /> Back-end: Node, Express, MongoDB, Google API.
+                </motion.p>
+                </div>
             </div>
 
-        </div>
+        </div >
     )
 }
 

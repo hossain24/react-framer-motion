@@ -32,7 +32,7 @@ const AnimateTwo = () => {
                         animate="visible"
                         transition={{
                             default: { duration: 10, ease: "easeInOut", loop: Infinity, },
-                            fill: { duration: 5, ease: [1, 0, 1, 1] }
+                            fill: { duration: 10, ease: [1, 0, 1, 1] }
                         }}
                     />
                 </motion.svg>
