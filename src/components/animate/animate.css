@@ -6,7 +6,7 @@
     background-position: top center; */
 
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     padding: 0;
     margin: 0;
@@ -15,6 +15,7 @@
     align-items: center;
     perspective: 500px;
     background: linear-gradient(180deg, rgb(148,14,255), rgb(229,21,108));
+    padding-bottom: 10em;
 }
 
 .Animate h1{
@@ -31,6 +32,7 @@
 .Animate-body p{
     text-align: center;
     color: rgb(5, 68, 68);
+    
 }
 
 .Animate-header {
