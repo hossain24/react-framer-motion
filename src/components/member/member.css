@@ -1,0 +1,91 @@
+.Landing{
+   /*  height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+ */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+    background: linear-gradient(180deg, #184d47, #96bb7c);
+    padding-bottom: 10em;
+}
+
+.Landing-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+
+.Login{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.Login-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(180deg, #184d47, #96bb7c);
+    padding-bottom: 10em;
+}
+
+.Signup{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.Signup-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(180deg, #184d47, #96bb7c);
+    padding-bottom: 10em;
+}
+
+.Dashboard{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.Dashboard-content{
+    /* height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px; */
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+    background: linear-gradient(180deg, #184d47, #96bb7c);
+    padding-bottom: 10em;
+}

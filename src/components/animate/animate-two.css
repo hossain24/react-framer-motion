@@ -14,7 +14,7 @@
    justify-content: center;
    align-items: center;
    perspective: 500px;
-   background: linear-gradient(180deg, rgb(229,21,108), rgb(15, 170, 144));
+   background: linear-gradient(180deg, #bac964, #436f8a);
  }
 
 .AnimateTwo-Header{
