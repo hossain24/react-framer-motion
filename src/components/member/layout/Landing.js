@@ -12,9 +12,7 @@ class Landing extends Component {
                             <div className="row">
                                 <div className="col s12 center-align">
                                     <h4>
-                                        <span style={{ fontFamily: "monospace" }}> Hill Track </span></h4>
-                                    <p className="flow-text grey-text text-light-1">
-                                        User authentication system </p>
+                                        <span style={{ fontFamily: "monospace" }}> User authentication system </span></h4>
                                     <br />
                                     <div className="col s6">
                                         <Link to="/register" style={{

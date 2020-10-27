@@ -14,7 +14,9 @@
    justify-content: center;
    align-items: center;
    perspective: 500px;
-   background: linear-gradient(180deg, #436f8a, #184d47);
+   /* background: linear-gradient(180deg, #436f8a, #96bb7c); */
+   background-image: url(../../images/tech5.jpg);
+   background-size: cover;
   }
 
 .AnimateThree-Header {

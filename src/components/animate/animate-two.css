@@ -14,7 +14,9 @@
    justify-content: center;
    align-items: center;
    perspective: 500px;
-   background: linear-gradient(180deg, #bac964, #436f8a);
+   /* background: linear-gradient(180deg, #bac964, #436f8a); */
+   background-image: url(../../images/tech2.jpg);
+   background-size: cover;
  }
 
 .AnimateTwo-Header{
