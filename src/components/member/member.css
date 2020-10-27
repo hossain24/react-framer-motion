@@ -13,7 +13,9 @@
     justify-content: center;
     align-items: center;
     perspective: 500px;
-    background: linear-gradient(180deg, #96bb7c, #184d47);
+   /* background: linear-gradient(180deg, #96bb7c, #184d47); */
+    background-image: url('../../images/tech2.jpg');
+    background-size: cover;
     padding-bottom: 10em;
 }
 
@@ -40,7 +42,9 @@
     justify-content: flex-start;
     align-items: center;
     padding: 40px;
-    background: linear-gradient(180deg, #96bb7c, #184d47);
+    /* background: linear-gradient(180deg, #96bb7c, #184d47); */
+    background-image: url('../../images/tech2.jpg');
+    background-size: cover;
     padding-bottom: 10em;
 }
 
@@ -58,7 +62,9 @@
     justify-content: flex-start;
     align-items: center;
     padding: 40px;
-    background: linear-gradient(180deg,  #96bb7c, #184d47);
+    /* background: linear-gradient(180deg,  #96bb7c, #184d47); */
+    background-image: url('../../images/tech2.jpg');
+    background-size: cover;
     padding-bottom: 10em;
 }
 

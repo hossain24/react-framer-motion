@@ -16,7 +16,9 @@
     justify-content: center;
     align-items: center; 
     perspective: 100px;
-    background: linear-gradient(180deg, #184d47, rgb(255,255,255));
+    /* background: linear-gradient(180deg, #184d47, rgb(255,255,255)); */
+    background-image: url('../../images/tech17.jpg');
+    background-size: cover;
 }
 
 .Video-content {
@@ -27,9 +29,9 @@
 }
 
 .Video-content h2{
-    color: rgb(4, 2, 39);
+    color: rgb(0,88,255);
 }
 
 .Video-content p{
-    color: rgb(4, 2, 39);
+    color: rgb(0,88,255);
 }
